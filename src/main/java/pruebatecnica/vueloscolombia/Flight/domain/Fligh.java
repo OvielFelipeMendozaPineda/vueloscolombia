@@ -22,7 +22,7 @@ import pruebatecnica.vueloscolombia.Transport.domain.Transport;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Flight {
+public class Fligh {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

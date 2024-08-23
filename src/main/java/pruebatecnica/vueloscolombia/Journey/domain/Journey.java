@@ -14,7 +14,7 @@ import jakarta.persistence.ManyToMany;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import pruebatecnica.vueloscolombia.Flight.domain.Flight;
+import pruebatecnica.vueloscolombia.Flight.domain.Fligh;
 
 /**
  * Journey
@@ -39,6 +39,6 @@ public class Journey {
         inverseJoinColumns = @JoinColumn(name = "flight_id")
         
     )
-    private List<Flight> flights;
+    private List<Fligh> flights;
 
 }
